@@ -1,0 +1,40 @@
+.commonnutrition{
+    background: var(--primary-color);
+    padding: .1rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+
+}
+.floatRight{
+    float: right;
+}
+.text{
+    margin-left: 1rem;
+    margin-right: .5rem;
+}
+.target{
+    height: .3rem;
+    width: 80%;
+    background: var(--primary-var-color);
+    margin-left: .7rem;
+    margin-right: 1rem;
+    border-radius: .5rem;
+    position: relative;
+    top: .39rem;
+    opacity: .3;
+}
+#nutritionpichart__protein .target{
+    left: .25rem;
+}
+#nutritionpichart__fat .target{
+    left: .1rem;
+}
+#nutritionpichart__carbs .target{
+    left: .19rem;
+}
+#nutritionpichart small{
+    color: var(--white-color);
+}
